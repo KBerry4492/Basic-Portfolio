@@ -38,6 +38,7 @@ a{
 
 .titleBar{
 	position: fixed;
+	z-index: 2;
 	top: 0px;
 	width: 100%;
 	height: 90px;
@@ -72,7 +73,6 @@ a{
 }
 
 .mainContent{
-	z-index: -1;
 	position: relative;
 	top: 120px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -93,8 +93,7 @@ a{
 .contentBox{
 	float: left;
 	border: solid #ddd 1px;
-/*	margin-bottom: 95px;
-*/	padding: 30px;
+	padding: 30px;
 	background-color:#fff; 
 	width: 590px;
 	line-height: 40px;
@@ -108,18 +107,15 @@ a{
 	margin: 20px;
 }
 
-.bLink{
+/*.bLink{
 	height: 200px;
 	width: 300px;
 	padding-top: 40px;
-}
+}*/
+
 
 .socialMedia{
-
-	position: relative;
-	left: 35px;
-	top:  0px;
-	overflow: auto;
+	float: right;
 	border: solid 1px #ddd;
 	padding: 30px;	
 	background-color:#fff; 
