@@ -6,7 +6,7 @@ body{
 h1{
 	
 	display: block;
-    font-size: 1.8em;
+    font-size: 2em;
     margin-top: 0.67em;
     margin-bottom: 0.67em;
     margin-left: 0;
@@ -107,11 +107,68 @@ a{
 	margin: 20px;
 }
 
-/*.bLink{
+#name{
+	width: 98%;	
+	border: solid 1px #ddd;
+ 	font-size: 15px;
+	padding: 5px;
+}
+
+#email{
+	width: 98%;
+	border: solid 1px #ddd;
+ 	font-size: 15px;
+	padding: 5px;	
+}
+
+#comment{
+	
+	width: 98%;
 	height: 200px;
-	width: 300px;
-	padding-top: 40px;
-}*/
+	border: solid 1px #ddd;
+ 	font-size: 15px;
+	padding: 5px;
+
+}
+
+#submit{
+	width: 80px;
+	padding: 10px;
+	text-align: center;
+	font-size: 18px;
+	border: 0px;
+	background-color: #4aaaa5;
+	color: #fff;
+
+}
+
+
+.bLink{
+	position: relative;
+	display: inline-block;
+	height: 180px;
+	width: 250px; 
+	margin: 20px;
+}
+
+.linkLabel{
+	
+	position: absolute;
+	width: 100%;
+	bottom: 20px;
+
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+	background-color: #4aaaa5;
+
+}
+
+.blBG{
+	height: 100%;
+	width: 100%; 
+}
 
 
 .socialMedia{
