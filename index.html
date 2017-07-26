@@ -2,8 +2,10 @@
 <html>
 <head>
 	<title>About Me</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 
+ 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<meta charset="utf-8">
 
 </head>
 <body>
@@ -13,23 +15,23 @@
 
 	<!-- div for name -->
 		<section class="name">
+		
 			<h1> Kevin Berry </h1>
 		
-
 		</section>
 
 	<!-- div to hold links --> 
-		<section class="linkBar">
+		<div class="linkBar">
 
 		<!-- div for link -->
-			<section class="link">
+			<div class="link">
 				<!-- About -->
-				About &nbsp;| &nbsp;Portfolio&nbsp; | &nbsp;Contact
+				<a href="index.html"> About </a> &nbsp;| &nbsp; <a href="portfolio.html"> Portfolio&nbsp; </a>| <a href="contact.html"> &nbsp;Contact </a>
 
-			</section>
+			</div>
 
 			
-		</section>
+		</div>
 
 	</div>
 <!-- Main Content -->
@@ -41,56 +43,58 @@
 			<h2>About Me</h2>	
 
 			<!-- line break -->
-			<section class="lbOne"></section>
+			<div class="lbOne"></div>
 
 			<!-- Profile pic and about me -->
-			<img id="Ppic" src="assets/images/PF_2.png">
-			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. 
+			<img id="Ppic" src="assets/images/PF_2.png" alt="My handsome self.">
+			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 			
 			<br>
 			<br>
 			
-			Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 		</section>
 
 
 	<!-- Div for social media -->
-		<section class="socialMedia">
+		<div class="socialMedia">
 
 		<!-- title -->
 			<h2>Connect with Me</h2>
 
 		<!-- line break -->
-			<section class="lbTwo"></section>
+			<div class="lbTwo"></div>
+
 		<!-- Github, linkedin, stackoverflow, facebook -->
-			<a href="https://github.com/KBerry4492" target="_blank"> <img class="Connect" src="assets/images/GitHub-Mark.png"></a>
+
+			<a href="https://github.com/KBerry4492" target="_blank"> <img class="Connect" src="assets/images/GitHub-Mark.png" alt="github"></a>
+
 		<!-- https://github.com/KBerry4492 -->
 
-		<a href="https://stackoverflow.com/users/8308772/k-berry" target="_blank"> <img class="Connect" src="assets/images/stackoverflow_logo_2.png"></a>
+			<a href="https://stackoverflow.com/users/8308772/k-berry" target="_blank"> <img class="Connect" src="assets/images/stackoverflow_logo_2.png" alt="stackoverflow"></a>
+
 		<!-- https://stackoverflow.com/users/8308772/k-berry -->
 
-		<a href="https://www.linkedin.com/in/kevinmichaelberry/" target="_blank"> <img class="Connect" src="assets/images/LinkedIn-Logo.png"></a>
+			<a href="https://www.linkedin.com/in/kevinmichaelberry/" target="_blank"> <img class="Connect" src="assets/images/LinkedIn-Logo.png" alt="linkedin"></a>
+
 		<!-- https://www.linkedin.com/in/kevinmichaelberry/ -->
 
-<!-- 		<a href="https://www.facebook.com/kevin.berry.7967"> <img class="Connect" src="assets/images/facebook_logo_2.png"> </a> -->
+			<!--<a href="https://www.facebook.com/kevin.berry.7967"> <img class="Connect" src="assets/images/facebook_logo_2.png"> </a> -->
+
 		<!-- https://www.facebook.com/kevin.berry.7967 -->
-		</section>
+		
+		</div>
 
 	</div>
 
 	
 <!-- Footer -->
-	<div class="copyright">
+	<footer class="copyright">
 
 	<!-- copyright -->
 	&copy;Copyright 2017 Kevin Berry
 
-	</div>
+	</footer>
 </body>
 </html>
